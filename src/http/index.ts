@@ -1,6 +1,6 @@
 import axios from "axios"
 import {AuthResponse} from "../models/response/AuthResponse"
-export const API_URL = "http://localhost:5050/auth"
+export const API_URL = "https://server-authorization.herokuapp.com/auth"
 
 
 const $api = axios.create({
